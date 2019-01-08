@@ -1,0 +1,4 @@
+.vs/
+STalker/bin/*
+STalker/obj/*
+STalker/inno/*.exe

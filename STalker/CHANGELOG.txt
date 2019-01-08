@@ -1,0 +1,13 @@
+﻿STalker Changelog
+
+Thank you for using STalker!
+
+============================================
+
+Version 0.5.0.0
+
+ - Initial release.
+
+============================================
+
+STalker is inspired by Shit Talker by Jaundice.
