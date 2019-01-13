@@ -48,7 +48,8 @@ namespace STalker {
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e) {
             frmAbout about = new frmAbout();
-            about.Show();
+            about.StartPosition = FormStartPosition.CenterParent;
+            about.ShowDialog(this);
         }
 
         private void speak(string theWords) {
