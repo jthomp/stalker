@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSettings));
             this.gbVoice = new System.Windows.Forms.GroupBox();
             this.nudVolume = new System.Windows.Forms.NumericUpDown();
             this.lblVolume = new System.Windows.Forms.Label();
@@ -177,6 +178,7 @@
             this.Controls.Add(this.lblFooter);
             this.Controls.Add(this.gbDefaults);
             this.Controls.Add(this.gbVoice);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSettings";
             this.Text = "Settings";
             this.Load += new System.EventHandler(this.frmSettings_Load);
