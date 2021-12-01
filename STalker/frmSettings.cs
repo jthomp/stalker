@@ -78,9 +78,6 @@ namespace STalker {
 
             // set the intro checkbox.
             this.cbIntro.Checked = Properties.Settings.Default.playIntro;
-
-            // set the splash checkbox.
-            this.cbShowSplash.Checked = Properties.Settings.Default.showSplash;
         }
 
         private void saveSettings() {
@@ -88,8 +85,6 @@ namespace STalker {
             Properties.Settings.Default.rate = Convert.ToInt32(Math.Round(this.nudVoiceRate.Value, 0));
             Properties.Settings.Default.volume = Convert.ToInt32(Math.Round(this.nudVolume.Value, 0));
             Properties.Settings.Default.playIntro = this.cbIntro.Checked;
-            Properties.Settings.Default.showSplash = this.cbShowSplash.Checked;
-
             Properties.Settings.Default.Save();
         }
     }

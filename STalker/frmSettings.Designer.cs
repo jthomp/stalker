@@ -32,7 +32,6 @@
             this.cmbVoices = new System.Windows.Forms.ComboBox();
             this.lblGender = new System.Windows.Forms.Label();
             this.gbDefaults = new System.Windows.Forms.GroupBox();
-            this.cbShowSplash = new System.Windows.Forms.CheckBox();
             this.cbIntro = new System.Windows.Forms.CheckBox();
             this.lblFooter = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
@@ -109,29 +108,18 @@
             // 
             // gbDefaults
             // 
-            this.gbDefaults.Controls.Add(this.cbShowSplash);
             this.gbDefaults.Controls.Add(this.cbIntro);
             this.gbDefaults.Location = new System.Drawing.Point(13, 132);
             this.gbDefaults.Name = "gbDefaults";
-            this.gbDefaults.Size = new System.Drawing.Size(299, 68);
+            this.gbDefaults.Size = new System.Drawing.Size(299, 45);
             this.gbDefaults.TabIndex = 1;
             this.gbDefaults.TabStop = false;
             this.gbDefaults.Text = "Defaults";
             // 
-            // cbShowSplash
-            // 
-            this.cbShowSplash.AutoSize = true;
-            this.cbShowSplash.Location = new System.Drawing.Point(17, 19);
-            this.cbShowSplash.Name = "cbShowSplash";
-            this.cbShowSplash.Size = new System.Drawing.Size(171, 17);
-            this.cbShowSplash.TabIndex = 2;
-            this.cbShowSplash.Text = "Show splash screen on launch";
-            this.cbShowSplash.UseVisualStyleBackColor = true;
-            // 
             // cbIntro
             // 
             this.cbIntro.AutoSize = true;
-            this.cbIntro.Location = new System.Drawing.Point(17, 42);
+            this.cbIntro.Location = new System.Drawing.Point(6, 19);
             this.cbIntro.Name = "cbIntro";
             this.cbIntro.Size = new System.Drawing.Size(119, 17);
             this.cbIntro.TabIndex = 1;
@@ -143,14 +131,14 @@
             this.lblFooter.BackColor = System.Drawing.Color.White;
             this.lblFooter.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lblFooter.Location = new System.Drawing.Point(0, 281);
+            this.lblFooter.Location = new System.Drawing.Point(0, 191);
             this.lblFooter.Name = "lblFooter";
             this.lblFooter.Size = new System.Drawing.Size(324, 51);
             this.lblFooter.TabIndex = 2;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(139, 297);
+            this.btnSave.Location = new System.Drawing.Point(135, 207);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(91, 23);
             this.btnSave.TabIndex = 3;
@@ -160,7 +148,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(236, 297);
+            this.btnCancel.Location = new System.Drawing.Point(237, 207);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 4;
@@ -172,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 332);
+            this.ClientSize = new System.Drawing.Size(324, 242);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblFooter);
@@ -206,6 +194,5 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.NumericUpDown nudVolume;
         private System.Windows.Forms.Label lblVolume;
-        private System.Windows.Forms.CheckBox cbShowSplash;
     }
 }

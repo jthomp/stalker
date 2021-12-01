@@ -21,12 +21,11 @@ namespace STalker {
 #endif
 
             if (Properties.Settings.Default.playIntro) {
-                speak("S Talker by Antillian");
+                speak("Shit talker by Antillian");
             }
         }
 
         private void setupForm() {
-            this.Text = $"{productName} v{Application.ProductVersion}";
             this.MaximizeBox = false;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.exitToolStripMenuItem.Text = $"Exit {productName}";

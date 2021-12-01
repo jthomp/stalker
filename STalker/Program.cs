@@ -10,10 +10,6 @@ namespace STalker {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            if (Properties.Settings.Default.showSplash) {
-                Application.Run(new frmSplash());
-            }
             Application.Run(new frmSTalker());
         }
     }
