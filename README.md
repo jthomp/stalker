@@ -1,7 +1,11 @@
 # stalker
 A Shit-Talker clone written in C#.
 
-Thanks for downloading STalker! STalker is inspired by one of my favorite programs from the old days, Shit Talker by Jaundice. The idea is to make it very close to the original (v1.2) with a few added touches. I hope you enjoy using it.
+Thanks for checking out STalker! 
+
+STalker is inspired by one of my favorite programs from the old days, Shit Talker by Jaundice.
+
+The idea was to make it very close to the original (v1.2) with a few added touches. I hope you enjoy using it.
 
 See CHANGELOG.txt for information about changes and new versions.
 
