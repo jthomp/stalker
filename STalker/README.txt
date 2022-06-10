@@ -4,4 +4,4 @@ Thanks for downloading STalker! STalker is inspired by one of my favorite progra
 
 See CHANGELOG.txt for information about changes and new versions.
 
-If you have any questions and/or concerns, feel free to reach out to me at jthomp1286@gmail.com or on Twitter @jthomp.
+If you have any questions and/or concerns, feel free to reach out to me on Twitter @jthomp.
