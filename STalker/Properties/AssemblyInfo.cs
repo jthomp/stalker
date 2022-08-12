@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Heavy Opposition Systems")]
 [assembly: AssemblyProduct("STalker")]
-[assembly: AssemblyCopyright("Copyright © Heavy Opposition Systems 2018")]
+[assembly: AssemblyCopyright("Copyright © Heavy Opposition Systems")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
