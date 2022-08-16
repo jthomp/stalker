@@ -1,5 +1,4 @@
 # stalker
-A Shit-Talker clone written in C#.
 
 Thanks for checking out STalker! 
 
