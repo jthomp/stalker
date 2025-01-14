@@ -215,6 +215,7 @@
             this.txtSayIt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtSayIt.Size = new System.Drawing.Size(161, 75);
             this.txtSayIt.TabIndex = 0;
+            this.txtSayIt.Text = "Inspired by Shit Talker version 1.2 by Jaundice";
             // 
             // gbQuestions
             // 
