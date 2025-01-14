@@ -28,7 +28,6 @@ namespace STalker {
         private void setupForm() {
             this.MaximizeBox = false;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.exitToolStripMenuItem.Text = $"Exit {productName}";
             this.aboutToolStripMenuItem.Text = $"About {productName}...";
         }
 
